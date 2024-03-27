@@ -11,14 +11,14 @@ html {
   border: 0.5rem solid black;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  width: 50vmin;
-  height: 50vmin;
+  width: 600px;
+  height: 600px;
 }
 
 .grid-items {
   border: 0.1rem solid gray;
   font-size: 2rem;
-  background-color: white;
+  background-color: #eee;
   position: relative;
   display: flex;
   justify-content: center;
@@ -40,8 +40,6 @@ html {
 }
 
 .answer {
-  font-size: 2rem;
-  border: none;
   width: 50%;
   height: 50%;
   text-align: center;
